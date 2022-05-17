@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "615416525725",
+    "firebase_url": "https://cookingapp-d8804-default-rtdb.firebaseio.com",
+    "project_id": "cookingapp-d8804",
+    "storage_bucket": "cookingapp-d8804.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615416525725:android:645face2b3d08f1aee7574",
+        "android_client_info": {
+          "package_name": "com.example.loadimage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615416525725-8fud0hqm15pprdrf3tg3tdkfp1a92283.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwg45u8rCYjJVEajv3Iqe4Dty5OOchnJ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615416525725-8fud0hqm15pprdrf3tg3tdkfp1a92283.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615416525725:android:dfae16e7cb41a841ee7574",
+        "android_client_info": {
+          "package_name": "com.example.recipebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615416525725-8fud0hqm15pprdrf3tg3tdkfp1a92283.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwg45u8rCYjJVEajv3Iqe4Dty5OOchnJ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615416525725-8fud0hqm15pprdrf3tg3tdkfp1a92283.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

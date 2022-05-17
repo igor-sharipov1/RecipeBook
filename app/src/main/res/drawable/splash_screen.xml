@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/white"/>
+    <item>
+        <bitmap android:src="@drawable/load_background"
+            android:gravity="center|bottom|fill" />
+    </item>
+    <item android:drawable="@drawable/ic_seekpng_com_tiffin_png_9673444"
+        android:gravity="center"
+
+        android:top="-50dp">
+    </item>
+    <item android:drawable="@drawable/ic_load_text"
+        android:gravity="center"
+        android:top="300dp">
+    </item>
+</layer-list>

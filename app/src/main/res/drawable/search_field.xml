@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape>
+            <solid android:color="@color/search_edit_text"/>
+            <stroke
+                android:width="2.3dp"
+                android:color="@color/search_edit_text" />
+            <corners
+                android:radius="30dp" />
+        </shape>
+    </item>
+
+
+</selector>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Книга рецептов</string>
+    <string name="title_home">Главная</string>
+    <string name="title_search">Поиск</string>
+    <string name="title_favorite">Избранное</string>
+    <string name="title_morning">Завтрак</string>
+
+</resources>
