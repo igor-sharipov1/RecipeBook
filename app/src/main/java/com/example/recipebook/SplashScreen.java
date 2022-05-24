@@ -41,6 +41,7 @@ public class SplashScreen extends AppCompatActivity {
             return actNw != null && (actNw.hasTransport(NetworkCapabilities.TRANSPORT_WIFI) || actNw.hasTransport(NetworkCapabilities.TRANSPORT_CELLULAR) || actNw.hasTransport(NetworkCapabilities.TRANSPORT_ETHERNET) || actNw.hasTransport(NetworkCapabilities.TRANSPORT_BLUETOOTH));
         } else {
             NetworkInfo nwInfo = connectivityManager.getActiveNetworkInfo();
+            Toast.makeText(getBaseContext(),"Отсутствует подключение к интернету", Toast.LENGTH_LONG);
             return nwInfo != null && nwInfo.isConnected();
         }
     }
