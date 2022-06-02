@@ -185,9 +185,10 @@ public class SearchFragment extends Fragment {
 
         private boolean getSimilarDish(){
             for (String string : currentString.split(" ")){
+                if (string.length() == 1 && currentString.length() != 1) continue;
                 boolean flag = false;
                 for (String string2 : databaseString.split(" ")){
-                    int end = string.length() > 3 ? (int) Math.round(string.length()/1.6) : string.length(); // +1 to string.len/2
+                    int end = string.length() > 3 ? (int) Math.round(string.length()/1.6) : string.length();
                     boolean check = string2.toLowerCase().startsWith(string.toLowerCase().substring(0, end));
                     if (check) flag = true;
                 }
