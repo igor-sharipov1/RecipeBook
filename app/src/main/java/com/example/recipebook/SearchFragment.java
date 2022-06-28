@@ -190,7 +190,10 @@ public class SearchFragment extends Fragment {
                 for (String string2 : databaseString.split(" ")){
                     int end = string.length() > 3 ? (int) Math.round(string.length()/1.6) : string.length();
                     boolean check = string2.toLowerCase().startsWith(string.toLowerCase().substring(0, end));
-                    if (check) flag = true;
+                    if (check) {
+                        flag = true;
+                        break;
+                    }
                 }
                 if (!flag) return false;
             }
